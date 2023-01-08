@@ -1,0 +1,25 @@
+
+from __future__ import print_function
+
+import os, sys
+import unittest
+
+# Make it possible to run this file from the root dir of pyelftools without
+# installing pyelftools; useful for CI testing, etc.
+sys.path[0:0] = ['.']
+
+
+def main():
+    if not os.path.isdir('test'):
+        print('!! Please execute from the root directory of pyelftools')
+        return 1
+    else:
+        tests = unittest.TestLoader().discover('test', 'test*.py', 'test')
+        result = unittest.TextTestRunner().run(tests)
+        if result.wasSuccessful():
+            return 0
+        else:
+            return 1
+
+if __name__ == '__main__':
+    sys.exit(main())
