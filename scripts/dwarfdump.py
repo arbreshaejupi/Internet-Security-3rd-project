@@ -2,8 +2,7 @@ import argparse
 import os, sys, posixpath
 import traceback
 
-# For running from development directory. It should take precedence over the
-# installed pyelftools.
+
 sys.path.insert(0, '.')
 
 from elftools import __version__
