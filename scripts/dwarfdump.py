@@ -17,8 +17,6 @@ from elftools.dwarf.dwarf_expr import DWARFExprParser, DWARFExprOp
 from elftools.dwarf.datatype_cpp import DIE_name, describe_cpp_datatype
 from elftools.dwarf.descriptions import describe_reg_name
 
-# ------------------------------
-# ------------------------------
 
 def _get_cu_base(cu):
     top_die = cu.get_top_DIE()
