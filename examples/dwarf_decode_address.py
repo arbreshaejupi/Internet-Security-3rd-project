@@ -1,12 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: dwarf_decode_address.py
-#
-# Decode an address in an ELF file to find out which function it belongs to
-# and from which filename/line it comes in the original source file.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

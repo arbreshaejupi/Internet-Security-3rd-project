@@ -1,13 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: dwarf_lineprogram_filenames.py
-#
-# In the .debug_line section, the Dwarf line program generates a matrix
-# of address-source references. This example demonstrates accessing the state
-# of each line program entry to retrieve the underlying filenames.
-#
-# William Woodruff (william@yossarian.net)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 from collections import defaultdict
 import os

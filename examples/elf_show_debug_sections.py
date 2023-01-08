@@ -1,11 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: elf_show_debug_sections.py
-#
-# Show the names of all .debug_* sections in ELF files.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

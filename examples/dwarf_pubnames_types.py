@@ -1,14 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: dwarf_pubnames_types.py
-#
-# Dump the contents of .debug_pubnames and .debug_pubtypes sections from the
-# ELF file.
-#
-# Note: sample_exe64.elf doesn't have a .debug_pubtypes section.
-#
-# Vijay Ramasami (rvijayc@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

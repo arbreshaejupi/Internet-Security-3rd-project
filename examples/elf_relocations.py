@@ -1,12 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: elf_relocations.py
-#
-# An example of obtaining a relocation section from an ELF file and examining
-# the relocation entries it contains.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

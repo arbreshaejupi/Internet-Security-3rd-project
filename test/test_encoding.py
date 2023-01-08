@@ -1,12 +1,3 @@
-# coding: utf-8
-#-------------------------------------------------------------------------------
-# elftools tests
-#
-# Audrey Dutcher (audrey@rhelmot.io)
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
-
 from __future__ import unicode_literals
 import unittest
 import os

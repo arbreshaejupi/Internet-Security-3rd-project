@@ -1,24 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: dwarf_location_info.py
-#
-# Examine DIE entries which have either location list values or location
-# expression values and decode that information.
-#
-# Location information can either be completely contained within a DIE
-# (using 'DW_FORM_exprloc' in DWARFv4 or 'DW_FORM_block1' in earlier
-# versions) or be a reference to a location list contained within
-# the .debug_loc section (using 'DW_FORM_sec_offset' in DWARFv4 or
-# 'DW_FORM_data4' / 'DW_FORM_data8' in earlier versions).
-#
-# The LocationParser object parses the DIE attributes and handles both
-# formats.
-#
-# The directory 'test/testfiles_for_location_info' contains test files with
-# location information represented in both DWARFv4 and DWARFv2 forms.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

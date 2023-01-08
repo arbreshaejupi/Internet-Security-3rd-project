@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-#-------------------------------------------------------------------------------
-# scripts/dwarfdump.py
-#
-# A clone of 'llvm-dwarfdump' in Python, based on the pyelftools library
-# Roughly corresponding to v15
-#
-# Sources under https://github.com/llvm/llvm-project/tree/main/llvm/tools/llvm-dwarfdump
-#
-# Utterly incompatible with 64-bit DWARF or DWARFv2 targeting a 64-bit machine.
-# Also incompatible with machines that have a selector/segment in the address.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 import argparse
 import os, sys, posixpath
 import traceback

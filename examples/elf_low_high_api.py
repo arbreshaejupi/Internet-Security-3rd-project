@@ -1,13 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: elf_low_high_api.py
-#
-# A simple example that shows some usage of the low-level API pyelftools
-# provides versus the high-level API while inspecting an ELF file's symbol
-# table.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

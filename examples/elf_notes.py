@@ -1,12 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: elf_notes.py
-#
-# An example of obtaining note sections from an ELF file and examining
-# the notes it contains.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

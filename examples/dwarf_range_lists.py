@@ -1,12 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: dwarf_range_lists.py
-#
-# Examine DIE entries which have range list values, and decode these range
-# lists.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 import sys
 

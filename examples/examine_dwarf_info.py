@@ -1,11 +1,3 @@
-#-------------------------------------------------------------------------------
-# elftools example: examine_dwarf_info.py
-#
-# An example of examining information in the .debug_info section of an ELF file.
-#
-# Eli Bendersky (eliben@gmail.com)
-# This code is in the public domain
-#-------------------------------------------------------------------------------
 from __future__ import print_function
 from pathlib import Path
 import sys
