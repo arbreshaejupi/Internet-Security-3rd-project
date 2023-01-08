@@ -1,5 +1,5 @@
 import argparse
-impor os,sys
+import os,sys
 import string
 import traceback
 import itertools
