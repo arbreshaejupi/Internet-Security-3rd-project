@@ -1260,6 +1260,11 @@ if self.elffile.elfclass == 32:
                 self._format_hex(0, fullhex=True, lead0x=False)))
 
     def _dump_frames_interp_info(self, section, cfi_entries):
+      """ Dump interpreted (decoded) frame information in a section.
+        `section` is the Section instance that contains the call frame info
+        while `cfi_entries` must be an iterable that yields the sequence of
+        CIE or FDE instances.
+        """
        self._emitline('Contents of the %s section:' % section.name)
 
         for entry in cfi_entries:
